@@ -1,0 +1,107 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page - Inventory System</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="{% static 'css/styles.css' %}">
+</head>
+<body>
+
+<!-- Navbar Section -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+    <div class="container">
+        <a class="navbar-brand" href="#">Inventory System</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="{% url 'add_product' %}">Add Product</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="{% url 'list_products' %}">List Products</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="{% url 'add_supplier' %}">Add Supplier</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="{% url 'list_suppliers' %}">List Suppliers</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="{% url 'add_stock_movement' %}">Add Stock</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="{% url 'create_sale_order' %}">Create Sale Order</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="{% url 'list_sale_orders' %}">List Sale Orders</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="{% url 'stock_level_check' %}">Stock_Check</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!-- Hero Section -->
+<header class="hero bg-primary text-white text-center py-5">
+    <div class="container">
+        <h1 class="display-4">Welcome to the Inventory Management System</h1>
+        <p class="lead">Efficient, easy, and reliable system to manage your products, suppliers, and sales orders.</p>
+        <a href="{% url 'add_product' %}" class="btn btn-light btn-lg">Get Started</a>
+    </div>
+</header>
+
+<!-- Features Section -->
+<section class="features py-5">
+    <div class="container">
+        <h2 class="text-center mb-4">Features</h2>
+        <div class="row">
+            <div class="col-md-4 mb-4">
+                <div class="card shadow-sm">
+                    <div class="card-body">
+                        <h5 class="card-title">Product Management</h5>
+                        <p class="card-text">Easily add and manage products in your inventory with real-time updates.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card shadow-sm">
+                    <div class="card-body">
+                        <h5 class="card-title">Supplier Management</h5>
+                        <p class="card-text">Keep track of suppliers and their details for a smooth supply chain.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card shadow-sm">
+                    <div class="card-body">
+                        <h5 class="card-title">Sales Orders</h5>
+                        <p class="card-text">Create and manage sales orders effortlessly with order history tracking.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Footer Section -->
+<footer class="bg-dark text-white text-center py-3">
+    <p>&copy; 2025 Inventory System. All rights reserved.</p>
+</footer>
+
+<!-- Bootstrap JS and Dependencies -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</body>
+</html>
+
