@@ -531,7 +531,7 @@ A Django-based inventory management system for handling products, suppliers, sto
    4. Address
 
 5. After enter the details of the new supplier details
-   ![alt text](<Add new supplier-1.png>)
+   ![alt text](<New supplier data entering.png>)
    then after clicking the new supplier button then the list of suppliers inventory page opens i.e
    ![alt text](<List of suppliers stored.png>)
 
