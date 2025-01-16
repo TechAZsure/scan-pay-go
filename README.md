@@ -502,11 +502,11 @@ A Django-based inventory management system for handling products, suppliers, sto
 
 1. **After Hosting the webpages**
    Home page will look like
-   ![alt text](<Home Page-1.png>)
+   ![alt text](<Home Page.png>)
 
 2. In home page at nav bar there are the webpages links from that if we click **Add Product**
    The add product webpage appears
-   ![alt text](<Add new product entering-1.png>)
+   ![alt text](<Add new product entering.png>)
    In this add product there are the inputs like
    1. Product Name
    2. Price
@@ -516,12 +516,12 @@ A Django-based inventory management system for handling products, suppliers, sto
    6. Supplier
 
 3. After entering the details in the add product page i.e 
-   ![alt text](<Add new product entering-1-1.png>)
+   ![alt text](<Add new product entering-1.png>)
    then the details will be stored in MongoDB i.e
    ![alt text](<Add products stored-1.png>)
 
 4. And before entering the products page first we want to create new supplier details to be filled by entering add supplier page i.e
-   ![alt text](<Add new supplier-1.png>)
+   ![alt text](<Add new supplier.png>)
    then in the new supplier page it will have the input details like
    1. Supplier Name
    2. Email
@@ -529,6 +529,6 @@ A Django-based inventory management system for handling products, suppliers, sto
    4. Address
 
 5. After enter the details of the new supplier details
-   ![alt text](<Add new supplier-1-1.png>)
+   ![alt text](<Add new supplier-1.png>)
    then after clicking the new supplier button then the list of suppliers inventory page opens i.e
-   ![alt text](<List of suppliers stored-1.png>)
+   ![alt text](<List of suppliers stored.png>)
