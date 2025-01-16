@@ -516,9 +516,9 @@ A Django-based inventory management system for handling products, suppliers, sto
    6. Supplier
 
 3. After entering the details in the add product page i.e 
-   ![alt text](<Add new product entering-1.png>)
+   ![alt text](<Add new product entering-1-1.png>)
    then the details will be stored in MongoDB i.e
-   ![alt text](<Add products stored.png>)
+   ![alt text](<Add products stored-1.png>)
 
 4. And before entering the products page first we want to create new supplier details to be filled by entering add supplier page i.e
    ![alt text](<Add new supplier-1.png>)
@@ -529,6 +529,6 @@ A Django-based inventory management system for handling products, suppliers, sto
    4. Address
 
 5. After enter the details of the new supplier details
-   ![alt text](<Add new supplier-1.png>)
+   ![alt text](<Add new supplier-1-1.png>)
    then after clicking the new supplier button then the list of suppliers inventory page opens i.e
-   ![alt text](<List of suppliers stored.png>)
+   ![alt text](<List of suppliers stored-1.png>)
