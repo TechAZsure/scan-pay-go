@@ -506,7 +506,7 @@ A Django-based inventory management system for handling products, suppliers, sto
 
 2. In home page at nav bar there are the webpages links from that if we click **Add Product**
    The add product webpage appears
-   ![alt text](<Add new product entering.png>)
+   ![alt text](<Add product.png>)
    In this add product there are the inputs like
    1. Product Name
    2. Price
@@ -517,6 +517,8 @@ A Django-based inventory management system for handling products, suppliers, sto
 
 3. After entering the details in the add product page i.e 
    ![alt text](<Add new product entering.png>)
+   then after that it opens the product list inventory page i.e 
+   ![alt text](<Add product inventory.png>)
    then the details will be stored in MongoDB i.e
    ![alt text](<Add products stored.png>)
 
@@ -532,3 +534,18 @@ A Django-based inventory management system for handling products, suppliers, sto
    ![alt text](<Add new supplier-1.png>)
    then after clicking the new supplier button then the list of suppliers inventory page opens i.e
    ![alt text](<List of suppliers stored.png>)
+
+6. Now after that by clicking the stock movement option it open the stock movement page i.e
+   ![alt text](<Stock Movement Page.png>)
+   in this we have to select the input like
+   1. Product
+   2. Movement type i.e Incoming or Outgoing
+   3. Quantity
+
+   after entering the details by clicking the record stock movement button it will updates in the database how many stocks of the product required
+
+7. After creating a full-fledged inventory management appliction then its user's turn to create a sale order, cancel and List their sales and also they can purchase the products.
+
+8. Once they purchased the stock quantity from the inventory decreases and in case if they cancel the order the stocks of that particular id database it gets revert back.
+
+Like this inventory management application will works
